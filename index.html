@@ -13,39 +13,214 @@
                 
             }
         
-            h1 {
+            h1, h2 {
                 color: white;
                 letter-spacing: 10px;
                 text-align: center;
                           
             }
             
-            p {
-                color: white;       
+            p{
+                color: white;
+                line-height: 150%;
+            }
+            
+            .right {
+                float: right;
+                
+            }
+            
+            .center {
+                text-align: center;
             }
             
             ol {
                 color: white;
             }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: white;
+                position: -webkit-sticky; /* Safari */
+                position: sticky;
+                top: 0;
+                
+            }
+            
+            li a {    
+                float: left;
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover {
+                background-color:black;
+                color: white;
+                
+            }
+            
         </style>
     
         <body>
       
-            <h1>Lugmere's Loss</h1>
-      
-                <p>Sorry for the jank appearence but pls roll with it. I wrote this in python and it doesn't get along 
-                with html, so in retrospect should've used js or java, but eh I wanted to learn python. But here's
+            <h1 id ='intro'>Lugmere's Loss</h1>
+            
+            <ul>
+                <li><span class='navbar'><a href='#intro'>Introduction</a></span></li>
+                <li><span class='navbar'><a href='#game'>Game</a></span></li>
+                <li><span class='navbar'><a href='#rules'>Rules</a></span></li>
+                <li><span class='navbar'><a href="#about">About</a></span></li>
+            
+            </ul>
+                <h2>- Introduction -</h2>
+                <p><span class='center'>(...This was originally in the game and you have to watch it type out, so to save you the agony I put it here instead.)</span></p>
+            
+                <p>
+                    <br />
+                    Welcome to the Metropolis of <strong>Lugmere</strong>, a flying mechanical collection of floating isles, housing a population plagued 
+                    by rampant pollution and tense historical turmoil. Lugmere lives on its alien power source found at the center of 
+                    the capital, and trade economy ran by airships. Airships of all sizes and craft drift by the balconies of the 
+                    local populance as they fill the air with exhaust and advertisments. Every soul down to the rats know that falling 
+                    into the murky clouds below means certain death, but the tight alleyways and canals allow for lucky individuals to 
+                    grasp onto nearby buildings or other airships if they fell. However, it is not the distance that will end those poor 
+                    unlucky souls, but rather a horror so terrible that everyone lives in denial of its existence, except for 
+                    <strong>"The Mawful"</strong>, a local cult who worships the being. They derive their will from this being, making the cult's 
+                    insignia of a headless body ever more appropriate.
+                    <br />
+                    <br />
+
+                    The cult has since been banished to the underbelly of the metropolis, where they worship the being in secret. 
+                    Known as <strong>"The Maw"</strong>, she sits underneath the entirety of Lugmere, lurking below the collection of floating isles, 
+                    waiting for her chance to swallow up poor souls who drift or fall too close. Her exact size is unknown, but 
+                    it is known that compared to her gargantuan size, Lugmere is but the tip of a pin. The origins of the beast remain 
+                    unknown as well, as she recently arrived 223 years ago. Researchers and professors of Lugmere's most prestigious
+                    <strong"Orson Laboratories"></strong> theorize that she lost her way from <strong>The Outerworld</strong>, more specifically, 
+                    the <strong>Kingdom of R'yleh</strong>. Her appearance triggered the occasional arrival of outerworldly beasts, who 
+                    ambush travelers through <strong>mysterious rifts</strong>.
+                    <br />
+                    <br />
+
+                    The Maw was sealed away 200 years ago with the help of a <strong>giant mechanical claw</strong> that grips so tight onto the beast 
+                    that at night, ear piercing wails of pain can be heard if you live close enough to the undercity district. Wires 
+                    stab into the creature so that with each cry, they light up to deliver power to the entire city. Strange liquids 
+                    ooze out of the wounds where the claw tears into The Maw, and is more cruel than even the most horrific of tortures.
+                    This is the <strong>heart of Lugmere</strong>, a literal beating of energy that paved the way for 200 years of unprecedented 
+                    developments in science and research.
+                    <br />
+                    <br />
+
+                    The world is ran on The Maw and a mysterious resource called <strong>"Flux"</strong>. These delicate nugget sized ores are found 
+                    towards the base of all the isles, and glow with a tinge of light similar to electricity. Removing them will cause 
+                    the isle to slowly fall back to the surface, making Flux a limited resource. People have perished from
+                    simply dropping unrefined Flux, as a single unit is enough to explode an entire airship. Therefore, it is illegal to
+                    obtain vast quantities of the matter. It is also illegal to mine Flux from islands not dedicated to mining, because 
+                    it would doom anyone living on the landmass. Lugmere slowly lost its reliance on Flux in favor of The Maw, however 
+                    recent power surges and unidentifiable noises from The Maw forced the royal technicians to revisit the horror...
+                    <br />
+                    <br />
+
+                    ... The technicians reported that the beast is roaring and struggling, <strong>slowly weakening the grip of the
+                    floating prison</strong>. They estimate that even with continuous reinforcement and additional Flux that the clamp can't hold 
+                    out for much longer before The Maw escapes Lugmere's hold. A call has been made to all citizens of the metropolis 
+                    to prepare for one of two outcomes; for them to help find a solution, or band together to take down the beast.
+                    <br />
+                    <br />
+                    
+                    The announcement panicked the population, causing some to go insane or defect to the local cult. Either way, both
+                    victim's symptoms would warrant them a room in <strong>Lugmere's Insane Asylum</strong>. However, they are correct to fear fate, 
+                    because if The Maw escapes, Lugmere would revert to primitive times, using Flux again. The government knows that
+                    if this were to happen, Lugmere would be doomed because it would be only a matter of time before Flux becomes scarce,
+                    promoting stealing, violence, and <strong>Lugmere plummeting, returning to the surface once more</strong>.
+                    <br />
+                    <br />
+                    
+                    It is up to you to find a way to save Lugmere.
+                    <br />
+                    <br />
+                </p>
+            
+                <h2>- Playing The Game -</h2>
+                <p id='game'>Sorry for the janky appearence but pls roll with it. I wrote this in python and it doesn't get along 
+                with html, so in retrospect should've used js, but eh I wanted to learn python. But here's
                 how to actually start playing:</p>
       
                 <ol>
-                    <li>Go to the seperator between the code and the console, and drag it up so you only see the console.</li>
-                    <li>Click the play button on the bottom right</li>
+                    <li>Below this is the game. Go to the seperator between the code and the console, and drag it up so you only see the console.</li>
+                    <li>Click the play button on the bottom right of the console (little triangle in a circle icon).</li>
                     <li>I don't have a third thing but I feel like you need at least 3 things to talk about if you're going to list them like this. </li>
                 </ol>
       
                 <iframe height="600px" width="100%" src="https://repl.it/@jsm209/Lugmeres-Loss?lite=true" scrolling="yes" frameborder="yes" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-    
+            
+                <h2 id='rules'>- Gameplay & Rules -</h2>
+                <p>
+                    THE OBJECTIVE OF THE GAME IS TO EARN THE HIGHEST SCORE. AT THE END OF THE GAME, EACH PLAYER'S SCORE IS CALCULATED BASED ON
+                    THEIR TOTAL RESOURCES. THE GAME HAS 7 MAIN RESOURCES:
+                    <br />
+                    <br />
+                    [Credits, Food, Fuel, Hull, Stress, Crew, Wisdom]
+                    <br />
+                    <br />
+                    PLAYERS WHO RESOLVE THE MAW CONFLICT WILL GAIN A BONUS.
+                    <br />
+                    <br />
+                    LUGMERE STARTS WITH A DOOM COUNTER OF 13. THE PLAYERS ENCOUNTER THE MAW WHEN THIS IS REDUCED TO 0.
+                    EACH TURN THE DOOM COUNTER TICKS DOWN BY 1.
+                    <br />
+                    <br />
+                    AT THE END OF EACH TURN, YOU MUST FEED YOUR PARTY INCLUDING YOURSELF, ONE FOOD EACH. IF YOUR CREW CANNOT BE FED,
+                    THEY WILL STARVE AND YOU WILL LOSE 5 SANITY PER DEATH.
+                    <br />
+                    <br />
+                    IF YOUR SANITY DROPS TO ZERO OR YOUR HULL DROPS TO ZERO, YOU BECOME DISABLED AND WILL SPEND TURNS TO RECOVER.
+                    IF YOU ARE DISABLED ON THE FINAL TURN, YOU WILL NOT ENCOUNTER THE MAW.   
+                    <br />
+                    <br />
+                     EACH TURN YOU CAN SELECT ONE OF SIX ACTIONS: 
+                </p>
+                <ol>
+                    <li>Mine - Only way to gain Flux (Fuel). May also gain crew and lose food.</li>
+                    <li>Dock - Only way to reduce Stress, replenish Hull, and gain Food. Consumes 10 credits per party member 
+                    (including yourself), per day.</li>
+                    <li>Work - Only way to gain Credits. Scales with amount of crew members (bigger workforce).</li>
+                    <li>Recruit - Consumes 50 credits to set up campaign. Gains crew members. Gaining crew this way gives wisdom.</li>
+                    <li>Tamper - Tampers with the doom counter. Can push it back 2 turns by sacrificing 5 crew members, or push it 
+                        forward 2 turns by spending 5 Flux. All players are saving their own version of Lugmere, but everyone shares
+                        a Doom counter amongst each other.</li>
+                    <li>Explore - Consumes 1 Flux (fuel) and requires 1 Crew. Gives you a random encounter to possibly gain wisdom.
+                        Can gain or lose all types of resources, depending on your decisions.</li>
+                </ol>
+                <p>
+                    
+                </p>
+            
+            
+                <h2 id='about'>- About -</h2>
+                <p>
+                    Lugmere's Loss is a project that I made because of a couple summer goals I had. One of these goals was to make a game a month, and the other
+                    is to learn more about HTML, CSS, and Python. I took inspiration from a board game called "Eldritch Horror" (if you play that then this, you'll
+                    find several similarities) because I liked how hopeless the game made you feel, yet for the most part it was an illusion. I tried to do the same
+                    with Lugmere's Loss by writing it using tropes from Steampunk and Lovecraftian Horror literature. However, considering that I'm not a writer, it
+                    was by far the most time consuming and possibly the weakest part of the entire game, but I'll let you decide that.    
+                </p>
+                <br />
+                <br />
+                <p>
+                    <span class='right'>Joshua Maza (7/19/2018)</span>
+                </p>
+                <br />
+                <br />
+                <p>
+                    <span class='center'>If you want to see more of my projects, you can check out my github by 
+                    clicking <a href='https://github.com/jsm209'>here</a>.</span>
+                </p>
         </body>
 
 
